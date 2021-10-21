@@ -63,7 +63,7 @@ p {
 }
 
 .navList {
-    width: 33%;
+    width: 60%;
 }
 
 .navList a {
@@ -217,6 +217,7 @@ p {
     text-align: center;
     height: 45vh;
     justify-content: space-around;
+    width: 60%;
 }
 
 .homePageText h1 {
@@ -237,7 +238,7 @@ p {
 }
 
 .homePageBtn {
-    width: 30%;
+    width: 40%;
     display: flex;
     justify-content: space-around;
 }
@@ -601,6 +602,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 80%;
 }
 
 @media screen and (max-width:600px) {
@@ -752,7 +754,7 @@ p {
 
 .contact {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     background-color: #edf1ff;
     height: 60vh;
     width: 100%;
@@ -811,6 +813,14 @@ p {
 
 .contactText ul {
     margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactText ul a {
+    text-decoration: none;
+    color: gray;
 }
 
 @media screen and (max-width:600px) {
@@ -823,9 +833,9 @@ p {
 .contactImg {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
-    padding-left: 15%;
+    width: 50%;
 }
 
 @media screen and (max-width:600px) {

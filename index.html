@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <title>Document</title>
@@ -20,7 +20,7 @@
         <nav class="navigation">
 
             <div class="navLogo">
-                <img src="./img/logo.png" alt="">
+                <img src="./img/logo-white1.png" alt="">
             </div>
             <div class="phoneMenu">
                 <img onclick="myFunction()" src="./img/menu.png" alt="">
@@ -37,36 +37,55 @@
                 </ul>
             </div>
 
-            <div class="navBtn">
-                <!-- <button><a href=""></a></button> -->
-            </div>
+
         </nav>
     </section>
     <section id="homePage">
         <div class="homePage">
             <div class="homePageText">
-                <h1>Welcome to Start Up</h1>
+                <h1>Welcome to UFE Start Up Club</h1>
                 <p>Таны хүсэж буй төсөлд чадах хамт олон</p>
                 <div class="homePageBtn">
-                    <button style="background-color: transparent; border: 1px solid #5e2ced;"><a href="#aboutUs">Үргэлжлүүлэх</a></button>
+                    <button style="background-color: transparent; border: 1px solid #00B5E2;"><a href="#aboutUs">Үргэлжлүүлэх</a></button>
                     <button><a href="#contact">Холбогдох</a></button>
                 </div>
             </div>
-            <img class="homePageImg" src="./img/homeBack.png" alt="">
-            <div class="cloud1 animate__animated animate__bounce animate__infinite"><img src="./img/cloudShape.png" alt=""></div>
+            <div class="homePageImg">
+                <img src="./img/homeBack.png" alt="">
+            </div>
+            <!-- <div class="cloud1 animate__animated animate__bounce animate__infinite"><img src="./img/cloudShape.png" alt=""></div>
             <div class="cloud2 animate__animated animate__bounce animate__infinite"><img src="./img/cloudShape.png" alt=""></div>
-            <div class="cloud3 animate__animated animate__bounce animate__infinite"><img src="./img/cloudShape.png" alt=""></div>
+            <div class="cloud3 animate__animated animate__bounce animate__infinite"><img src="./img/cloudShape.png" alt=""></div> -->
         </div>
     </section>
     <section id="partners">
         <div class="partners">
-            <h1>Бидний бий болгон <strong>бүтээсэн</strong> төслүүд</h1>
+            <h1>Бид <strong>Бол</strong> </h1>
             <div class="partnersImg">
-                <img src="./img/partner1.png" alt="">
-                <img src="./img/partner2.png" alt="">
-                <img src="./img/partner3.png" alt="">
-                <img src="./img/partner4.png" alt="">
-                <img src="./img/partner1.png" alt="">
+                <div class="partnersText">
+                    <h1 style="color: red;">B</h1>
+                    <p>Best</p>
+                </div>
+                <div class="partnersText">
+                    <h1 style="color: blue;">E</h1>
+                    <p>Experienced</p>
+                </div>
+                <div class="partnersText">
+                    <h1 style="color: orange;">L</h1>
+                    <p>Loveable</p>
+                </div>
+                <div class="partnersText">
+                    <h1 style="color: green;">I</h1>
+                    <p>Innovative</p>
+                </div>
+                <div class="partnersText">
+                    <h1 style="color: purple;">E</h1>
+                    <p>Enchanted</p>
+                </div>
+                <div class="partnersText">
+                    <h1 style="color: aqua;">F</h1>
+                    <p>Familia</p>
+                </div>
             </div>
         </div>
     </section>
@@ -76,12 +95,16 @@
             <h1>Бидний тухай</h1>
             <div class="processList">
                 <div class="processListBox">
-                    <div class="processListBoxIcon"></div>
+                    <div class="processListBoxIcon">
+                        <img src="./img/rocket.png" alt="">
+                    </div>
                     <h3>Алсын хараа</h3>
                     <p>Залууст гарааны бизнес эхлүүлэхэд шаардлагатай мэдлэг, ур чадваруудыг тасралтгүй хүргэж, хөгжүүлж анхны алхамаа хийх дэмжлэг нь байх юм. </p>
                 </div>
                 <div class="processListBox">
-                    <div class="processListBoxIcon"></div>
+                    <div class="processListBoxIcon">
+                        <img src="./img/rocket.png" alt="">
+                    </div>
                     <h3>Зорилго</h3>
                     <p>Гарааны бизнес эрхлэх сонирхолтой залууст зориулж эко-систем бий болгох</p>
                 </div>
@@ -106,7 +129,7 @@
     <section id="feedBack">
         <div class="feedBack">
             <div class="feedBackImg">
-                <img src="./img/feedBack.png" alt="">
+                <img src="./img/aboutuss.jpg" alt="">
             </div>
             <div class="feedBackText">
                 <div class="processListBoxIcon"></div>
@@ -123,65 +146,65 @@
             <h3>Start Up</h3>
             <h1>Хамт олон</h1>
             <div class="swiper">
-                <!-- Additional required wrapper -->
+
                 <div class="swiper-wrapper">
-                    <!-- Slides -->
+
                     <div class="swiper-slide">
                         <div class="teamBox">
                             <div class="teamBoxImg">
-                                <img src="./img/zurag1.png" alt="">
+                                <img src="./img/18-04-09bodliintsuuraievent.jpg" alt="">
                             </div>
                             <div class="teamBoxText">
-                                <!-- <h2>Apple Mobile MockUp</h2> -->
-                                <p style="color: black;">Branding, Design</p>
+                                <h2>Бодлын цуурай эвент</h2>
+                                <p style="color: black;">2018.04.09</p>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="teamBox">
                             <div class="teamBoxImg">
-                                <img src="./img/zurag2.png" alt="">
+                                <img src="./img/19-02-28-bodliintsuurei2event.jpg" alt="">
                             </div>
                             <div class="teamBoxText">
-                                <!-- <h2>Apple Mobile MockUp</h2> -->
-                                <p style="color: black;">Branding, Design</p>
+                                <h2>Бодлын цуурай 2 эвент</h2>
+                                <p style="color: black;">2019.02.28</p>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="teamBox">
                             <div class="teamBoxImg">
-                                <img src="./img/zurag3.jpg" alt="">
+                                <img src="./img/20-10-20-hub.jpg" alt="">
                             </div>
                             <div class="teamBoxText">
-                                <!-- <h2>Apple Mobile MockUp</h2> -->
-                                <p style="color: black;">Branding, Design</p>
+                                <h2>Hub Innovation</h2>
+                                <p style="color: black;">2020.10.20</p>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="teamBox">
                             <div class="teamBoxImg">
-                                <img src="./img/zurag4.jpg" alt="">
+                                <img src="./img/20-10-22-ufe.jpg" alt="">
                             </div>
                             <div class="teamBoxText">
-                                <!-- <h2>Apple Mobile MockUp</h2> -->
-                                <p style="color: black;">Branding, Design</p>
+                                <h2>UFE</h2>
+                                <p style="color: black;">2020.10.22</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="teamBox">
+                            <div class="teamBoxImg">
+                                <img src="./img/20-11-06-MofficeCoworkingSpace.jpg" alt="">
+                            </div>
+                            <div class="teamBoxText">
+                                <h2>Moffice Coworking Space</h2>
+                                <p style="color: black;">2020.11.06</p>
                             </div>
                         </div>
                     </div>
                     <!-- <div class="swiper-slide">
-                        <div class="teamBox">
-                            <div class="teamBoxImg">
-                                <img src="./img/list1.jpg" alt="">
-                            </div>
-                            <div class="teamBoxText">
-                                
-                                <p style="color: black;">Branding, Design</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
                         <div class="teamBox">
                             <div class="teamBoxImg">
                                 <img src="./img/list1.jpg" alt="">
@@ -209,42 +232,46 @@
                     <div class="swiper-slide">
                         <div class="commentBox">
                             <div class="commentBoxPerson">
-                                <img src="./img/person.png" alt="">
+                                <img src="./img/nomin.png" alt="">
                                 <div class="commentBoxPersonText">
-                                    <h1>Norman Gordon</h1>
-                                    <p>Web Developer</p>
+                                    <h1>Б.Номин</h1>
+                                    <p>2021 оны төгсөгч</p>
                                 </div>
                             </div>
                             <div class="commentBoxText">
-                                <p>Why say old chap that is spiffing barney nancy boys bleeder and chimney pot Richard cheers the little rotter so I said, easy peasy buggered blower bevvy A bit of how's your father.</p>
+                                <p>Энэ клубт элсэж орсондоо үнэхээр баяртай байдаг, ковид гээд ихэнх цагаа онлайнаар суралцаж төгсөж байгаа ч оюутан насны хамгийн жаргалтай, хөгжилтэй, гунигтай, сургамжтай гээд бүхий л дурсамжуудыг минь бүтээж өгсөн клубтээ
+                                    баярлалаа. Энэ гайхалтай цаг хугацааг хамтдаа өнгөрүүлсэн клубтээ, гишүүддээ хязгааргүй их хайртай шүү, цаашид энэ клубийн үе үеийн гишүүд энэ гоё уур амьсгалыг хэвээр авч үлдээсэй гэж хүсч байна. </p>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="commentBox">
                             <div class="commentBoxPerson">
-                                <img src="./img/person.png" alt="">
+                                <img src="./img/nymochir.png" alt="">
                                 <div class="commentBoxPersonText">
-                                    <h1>Norman Gordon</h1>
-                                    <p>Web Developer</p>
+                                    <h1>Д.Ням-Очир</h1>
+                                    <p>2020 оны элсэгч</p>
                                 </div>
                             </div>
                             <div class="commentBoxText">
-                                <p>Why say old chap that is spiffing barney nancy boys bleeder and chimney pot Richard cheers the little rotter so I said, easy peasy buggered blower bevvy A bit of how's your father.</p>
+                                <p>1 жилийн хугацаанд СтартАп клубд ороод маш их зүйлийн сурсан. Гарааны бизнесээ эхлүүлэх урам зориг өмнөхөөсөө илүү их нэмэгдэж, яаж өөрийн санаагаа амьдрал дээр буулгах болон баг хамт олон ямар байдаг гэдгийг маш сайн ойлгосон.
+                                    Nice </p>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="commentBox">
                             <div class="commentBoxPerson">
-                                <img src="./img/person.png" alt="">
+                                <img src="./img/zolzaya.png" alt="">
                                 <div class="commentBoxPersonText">
-                                    <h1>Norman Gordon</h1>
-                                    <p>Web Developer</p>
+                                    <h1>М.Золзаяа</h1>
+                                    <p>2019 оны элсэгч</p>
                                 </div>
                             </div>
                             <div class="commentBoxText">
-                                <p>Why say old chap that is spiffing barney nancy boys bleeder and chimney pot Richard cheers the little rotter so I said, easy peasy buggered blower bevvy A bit of how's your father.</p>
+                                <p>Миний бие 1-р курст элсэн хамгийн түрүүнд орсон клуб билээ. Ярилцлагын шатнаас эхлэн асуултууд, ярилцлага авч буй хүмүүсийн хандлага гээд бүгд их дотно сайхан санагдаж билээ. Клубтээ орон үйл ажиллагаанд оролцоод явахад
+                                    бүгд найрсаг бас сэтгэлээрээ миний хувьд өөрийнхөөрөө чөлөөтэй байж болох газар шиг санагддаг. Хамгийн чухал нь СтартАп клуб болохоор ч тэр үү гишүүд үргэлж шинэ зүйлд соргог нээлттэй, нэгнийнхээ гаргсан санааг дэмждэг,
+                                    тусалдаг санагддаг.</p>
                             </div>
                         </div>
                     </div>
@@ -260,8 +287,8 @@
             <div class="contactImg">
                 <img src="./img/logo.png" alt="">
                 <div class="contactLogo">
-                    <h5>Email: <a href="">makto@gmail.com</a></h5>
-                    <h5>Phone: <a href="">+948 256 347 968</a></h5>
+                    <h5>Email: <a href="">ufestartup_club@ufe.edu.mn </a></h5>
+                    <h5>Phone: <a href="">80200003 89690915</a></h5>
                 </div>
                 <input type="text" value="Email">
             </div>
@@ -269,10 +296,9 @@
                 <div class="contactContainer">
                     <h1>Start Up Club</h1>
                     <ul>
-                        <li><a href="">Facebook</a></li>
-                        <li><a href="">Instagram</a></li>
-                        <li><a href="">Twitter</a></li>
-                        <li><a href="">Discord</a></li>
+                        <li><a href="https://www.facebook.com/UFE.Startup">Facebook</a></li>
+                        <li><a href="https://www.instagram.com/ufestartup.club/">Instagram</a></li>
+                        <li><a href="https://discord.gg/ ">Discord</a></li>
                         <li><a href="">Байршил</a></li>
                     </ul>
                 </div>

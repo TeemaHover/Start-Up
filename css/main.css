@@ -1,6 +1,7 @@
 :root {
-    --main-color: #5e2ced;
+    --main-color: #005ae2;
     --mainSec-color: #ff3d57;
+    --home--color: #005ae2c2;
 }
 
 html {
@@ -8,7 +9,7 @@ html {
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 p {
@@ -39,15 +40,17 @@ p {
     padding-top: 2%;
     justify-content: space-between;
     align-items: center;
-    background-color: #e2e6ff;
+    background-color: var(--home--color);
+    padding-top: 3%;
 }
 
 .navLogo {
     width: 33%;
+    margin-top: -2%;
 }
 
 .navLogo img {
-    width: 35%;
+    width: 45%;
 }
 
 @media screen and (max-width:600px) {
@@ -67,12 +70,13 @@ p {
 }
 
 .navList {
-    width: 60%;
+    width: 80%;
 }
 
 .navList a {
     text-decoration: none;
-    color: black;
+    color: white;
+    font-weight: bold;
 }
 
 .navList ul {
@@ -191,12 +195,11 @@ p {
 .homePage {
     position: relative;
     display: flex;
-    flex-direction: column;
-    height: 140vh;
+    height: 90vh;
     align-items: center;
     justify-content: space-around;
-    background-image: linear-gradient(#e2e6ff, white);
-    padding-top: 10%;
+    /* background-image: linear-gradient(var(--home--color), white); */
+    background-color: var(--home--color);
 }
 
 @media screen and (max-width:600px) {
@@ -214,19 +217,24 @@ p {
     margin-top: 0;
 }
 
+.homePageImg img {
+    width: 80%;
+}
+
 .homePageText {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    height: 45vh;
+    height: 70vh;
     justify-content: space-around;
-    width: 60%;
+    width: 50%;
+    color: white;
 }
 
 .homePageText h1 {
-    width: 60%;
-    font-size: 42px;
+    width: 80%;
+    font-size: 84px;
     font-weight: bold;
 }
 
@@ -239,12 +247,14 @@ p {
 .homePageText p {
     width: 70%;
     font-size: 16px;
+    color: white;
 }
 
 .homePageBtn {
     width: 40%;
     display: flex;
     justify-content: space-around;
+    font-weight: bold;
 }
 
 .homePageBtn button {
@@ -342,6 +352,18 @@ p {
     }
 }
 
+.partnersText {
+    text-align: center;
+}
+
+.partnersText h1 {
+    font-size: 100px;
+}
+
+.partnersText p {
+    font-weight: bold;
+}
+
 
 /* Process */
 
@@ -411,9 +433,14 @@ p {
 .processListBoxIcon {
     width: 75px;
     height: 75px;
-    background-color: var(--main-color);
-    border-radius: 100px;
+    border-radius: 30px;
+    background-color: rgba(255, 196, 0, 0.589);
     border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.processListBoxIcon img {
+    width: 100%;
 }
 
 .process button {
@@ -711,6 +738,11 @@ p {
 
 .commentBoxText p {
     line-height: 2;
+}
+
+.commentBoxText {
+    overflow: auto;
+    height: 150px;
 }
 
 .commentBoxPerson {

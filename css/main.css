@@ -3,6 +3,10 @@
     --mainSec-color: #ff3d57;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -279,6 +283,10 @@ p {
     font-family: 'Poppins', sans-serif;
     color: white;
     text-decoration: none;
+}
+
+.homePageBtn button a:hover {
+    color: var(--main-color);
 }
 
 

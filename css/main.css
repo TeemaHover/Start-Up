@@ -434,7 +434,6 @@ p {
     width: 75px;
     height: 75px;
     border-radius: 30px;
-    background-color: rgba(255, 196, 0, 0.589);
     border-top-right-radius: 0px;
     border-bottom-left-radius: 0px;
 }
@@ -551,6 +550,12 @@ p {
     margin-left: 5%;
 }
 
+.feedBackTextTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
 .feedBackText .processListBoxIcon {
     background-color: var(--mainSec-color);
 }
@@ -559,6 +564,7 @@ p {
     font-size: 36px;
     font-weight: bold;
     margin: 5% 0;
+    margin-left: 5%;
 }
 
 .feedBackText button {
@@ -796,7 +802,7 @@ p {
     display: flex;
     align-items: center;
     background-color: #edf1ff;
-    height: 60vh;
+    height: 100vh;
     width: 100%;
     padding-top: 10%;
 }
@@ -825,6 +831,7 @@ p {
     display: flex;
     justify-content: space-around;
     width: 50%;
+    z-index: 2;
 }
 
 @media screen and (max-width:600px) {
@@ -860,7 +867,8 @@ p {
 
 .contactText ul a {
     text-decoration: none;
-    color: gray;
+    color: rgb(5, 5, 5);
+    font-weight: bold;
 }
 
 @media screen and (max-width:600px) {
@@ -906,16 +914,6 @@ p {
 .contactLogo a {
     text-decoration: none;
     color: gray;
-}
-
-
-/* footer */
-
-.footer {
-    background-color: #edf1ff;
-    display: flex;
-    justify-content: space-around;
-    padding-top: 5%;
 }
 
 .open {

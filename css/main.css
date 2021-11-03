@@ -205,6 +205,8 @@ p {
 @media screen and (max-width:600px) {
     .homePage {
         height: 60vh;
+        flex-direction: column;
+        padding-top: 20%;
     }
 }
 
@@ -215,6 +217,8 @@ p {
 .homePageImg {
     color: white;
     margin-top: 0;
+    display: flex;
+    justify-content: center;
 }
 
 .homePageImg img {
@@ -333,8 +337,8 @@ p {
 
 @media screen and (max-width:600px) {
     .partners {
-        margin-top: 5%;
-        height: 60vh;
+        margin-top: 15%;
+        height: 100vh;
     }
     .partners h1 {
         font-size: 24px;
